@@ -109,14 +109,17 @@
 				$link->texto = "Casa en Villa Don Carlos ".$subtexto->etiqueta();
 				$menu->vector[] = $link->hipervinculo();
 				
+				$link->url = "galerias.php";
+				$subtexto->texto="Galerias";
+				$link->texto = "Galerias".$subtexto->etiqueta();
+				$menu->vector[] = $link->hipervinculo(); 
 				
-				
-				$link->url = "alquiler";
+				$link->url = "promociones.php";
 				$subtexto->texto="Promociones";
 				$link->texto = "Promociones".$subtexto->etiqueta();
 				$menu->vector[] = $link->hipervinculo(); 
 				
-				$link->url = "contacto";
+				$link->url = "contacto.php";
 				$subtexto->texto="Contacto";
 				$link->texto = "Contacto ".$subtexto->etiqueta();
 				$menu->vector[] = $link->hipervinculo();
