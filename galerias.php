@@ -19,7 +19,7 @@ $sitio->inicio();
 $sitio->menu();
 $sitio->main();
 
-	$sitio->subtitulo="Contacto";
+	$sitio->subtitulo="Galerias";
 	$sitio->titulos();
 	
 	$subMenu = new Html;
@@ -28,17 +28,26 @@ $sitio->main();
 	$subMenu->texto="<h2 class='header'></h2>";
 		$lista = new Html;
 		$lista->id="sidebar";
-		$lista->vector=array("Telefono:",
-							  "Celular:",
-							  "Direccion:",
-							  "Redes sociales:");		
+		$lista->vector=array("Ubicación:",
+							  "Sup. total:",
+							  "Sup. cubierta:",
+							  "Capacidad:",
+							  "Dormitorios:",
+							  "Baños:",
+							  "Piscina:",
+							  "Jardín:",
+							  "Entretenimiento",
+							  "Admite eventos:",
+							  "Mascotas",
+							  "Cochera:",
+							  "Estadía mínima");		
 		$subMenu->texto.=$lista->listas();
 	$sitio->texto=$subMenu->etiqueta();
 	
 	$central = new Html;
 	$central->class="derecha";
 	$central->etiqueta="div";
-	$central->texto= "<h2>contacto</h2>";
+	$central->texto= "<h2>Galerias</h2>";
 		
 			
 	$central->texto .=	$facebook->recomendacion().

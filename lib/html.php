@@ -110,6 +110,7 @@
             	}
             	$var .= "</tr>\n";
         	}
+			$var .= "</table>\n";
 			return $var;			
 		}
 		
@@ -123,7 +124,7 @@
 			}
 			if ($this->size != null) 
 			{
-				$var .= "size='".$this->size."' ";
+				$var .= "size='".$this->size."px' ";
 			}
 			if ($this->type != null) 
 			{
@@ -135,9 +136,9 @@
 		//genera una text area
 		public function textarea()
 		{
-			$var = "<textarea".$this->condicion().$this->condFormularios().">\n".
+			return "<textarea".$this->condicion().$this->condFormularios().">\n".
 						$this->texto.
-					"</textarea>\n";
+					"</textarea>\n";			
 		}
 		
 		//genera un select
@@ -155,13 +156,15 @@
 		//genera un input
 		public function input()
 		{
-			$var = "<input".$this->condicion().$this->condFormularios()."/>\n";
+			return "<input".$this->condicion()." ".$this->condFormularios()."/>\n";			
 		}
 		
 		//genera un formulario
 		public function form()
 		{
-			$var = "<form".$this->condicion().$this->condFormularios()." action='".$this->sub.$this->url."'>\n";
+			$var = "<form".$this->condicion()." ".
+							$this->condFormularios().
+							" action='".$this->sub.$this->url."'>\n";
 			$this->type="reset";
 			$this->name="Borrar";
 			$borrar = $this->input();

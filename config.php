@@ -104,7 +104,7 @@
 			$menu->id = "nav";
 			$menu->class = "sf-menu";
 				
-				$link->url = "index";
+				$link->url = "index.php";
 				$subtexto->texto="Inicio";
 				$link->texto = "Casa en Villa Don Carlos ".$subtexto->etiqueta();
 				$menu->vector[] = $link->hipervinculo();

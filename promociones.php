@@ -38,7 +38,7 @@ $sitio->main();
 	$central = new Html;
 	$central->class="derecha";
 	$central->etiqueta="div";
-	$central->texto= "<h2>contacto</h2>";
+	$central->texto= "<h2>Promociones</h2>";
 		
 			
 	$central->texto .=	$facebook->recomendacion().
