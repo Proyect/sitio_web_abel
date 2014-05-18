@@ -165,6 +165,7 @@
 			$var = "<form".$this->condicion()." ".
 							$this->condFormularios().
 							" action='".$this->sub.$this->url."'>\n";
+			$this->class = "btn";
 			$this->type="reset";
 			$this->name="Borrar";
 			$borrar = $this->input();

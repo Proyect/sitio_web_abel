@@ -53,8 +53,7 @@
 		// realiza la cabecera del sitio
 		public function cabecera()
 		{
-			echo "<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'
-					'http://www.w3.org/TR/html4/loose.dtd'>
+			echo "﻿<!doctype html lang='es' xml:lang='es'> 
 					<html xmlns='http://www.w3.org/1999/xhtml'>
     				<head>
         				<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
@@ -163,18 +162,7 @@
 		echo $this->etiqueta();
 	}
 	
-	//genera la galeria de imageneres
-	public function galeria()
-	{
-		return "<div id='slider-block'>
-				<div id='slider-holder'>
-					<div id='slider'>".
-					$this->texto.
-				"</div>
-				</div>
-			</div>";
-	}
-	
+		
 	//genera el cierre del sitio
 	public function mainEnd()
 	{
@@ -190,72 +178,11 @@
 	// genera el pie del sitio web
 	public function pie()
 	{
-		echo "<!-- FOOTER -->
-			<div id='footer' class='footer'>
-				<!-- wrapper-footer -->
-				<div class='wrapper'>
-					<!-- footer-cols -->
-					<ul id='footer-cols'>
-						<li class='col'>
-							<h6>Enlaces Importantes</h6>
-							<ul>
-								<li class='page_item'>
-                                    <a href='index.html'>
-                                        Casa en villa Don Carlos
-                                    </a>
-                                </li>
-								
-								<li class='page_item'>
-                                    <a href='gallery.html'>
-                                        Promociones
-                                    </a>
-                               </li>
-								<li class='page_item'><a href='contact.html'>Contacto</a></li>
-							</ul>
-						</li>
-						
-						<li class='col'>
-							<h6>Categorias</h6>
-							<ul>
-								<li><a href='#'>Galerias de Fotos</a></li>
-								<li><a href='#/'>Promociones</a></li>
-								<li><a href='#'>Descripcion de servicios</a></li>								
-							</ul>
-						</li>
-						<li class='col'>
-							<h6>Sobre Nosotros</h6>
-							texto - texto - texto - texto -texto - texto -texto - texto -texto - texto -texto - texto -
-                            texto - texto -texto - texto -texto - texto -texto - texto -texto - texto -texto - texto -
-						</li>
-						
-					</ul>
-					<!-- ENDS footer-cols -->
-				</div>
-				<!-- ENDS wrapper-footer -->
-				</div>
-			
-			<!-- ENDS FOOTER -->
-		
-			<!-- Bottom -->
-			<div id='bottom'>
-				<!-- wrapper-bottom -->
-				<div class='wrapper'>
-					<div id='bottom-text'>
-                        <a href='http://infrasoft.com.ar'>
-                            Infrasoft - Servicios informaticos - http://www.infrasoft.com.ar</a>
-                        </div>
-					<!-- Social -->
-					<ul class='social'>
-						<li><a href='http://www.facebook.com' class='poshytip  facebook' title='Pagina de Facebook'></a></li>
-						<li><a href='http://www.twitter.com' class='poshytip twitter' title='Siguenos en Twitter'></a></li>					
-						<li><a href='http://www.youtube.com' class='poshytip youtube' title='Ver el canal de videos'></a></li>
-					</ul>
-					<!-- ENDS Social -->
-					<div id='to-top' class='poshytip' title='To top'></div>
-				</div>
-				<!-- ENDS wrapper-bottom -->
-			</div>
-			<!-- ENDS Bottom -->
+		echo "<footer id='footer'>
+    <div class='container'>  
+        <p>Desarrollo realizado por infrasoft. Todos los derechos reservados.</p>
+    </div>
+</footer>
 		
 	</body>
 </html>";

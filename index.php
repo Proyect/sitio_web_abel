@@ -12,14 +12,18 @@ $vectorImg = array();
 
 $sitio=new Sitio; 
 $sitio->title="Abel Madrazo Alquila";
-$sitio->adicional="".
-		$facebook->cabecera();
+$sitio->adicional="<link rel='stylesheet' type='text/css' href='shadowbox.css'>
+<script type='text/javascript' src='shadowbox.js'></script>
+<script type='text/javascript'>
+Shadowbox.init();
+</script>".
+					$facebook->cabecera();
 $sitio->cabecera();
 $sitio->inicio();
 $sitio->menu();
 $sitio->main();
 
-	$sitio->subtitulo="prueba de subtitulos";
+	$sitio->subtitulo="Cabaña villa don Carlos";
 	$sitio->titulos();
 	
 	$subMenu = new Html;
@@ -52,16 +56,19 @@ $sitio->main();
 			
 			$galeria->url="imagenes/casa/P1030727.jpg";
 			$galeria->otros="title='casa 1'";
-			$galeria->texto=$galeria->imagen();
+			$galeria->texto =$galeria->imagen();
+			$galeria->otros ="rel='shadowbox'";
+	$central->texto .=		$galeria->hipervinculo();
 			
 			$galeria->url="imagenes/casa/P1030727.jpg";
 			$galeria->otros="title='casa 2'";
-			$galeria->texto.=$galeria->imagen();
+			$galeria->texto =$galeria->imagen();
+			$galeria->otros ="rel='shadowbox'";
+	$central->texto .=		$galeria->hipervinculo();
 			
+						
 			
-			
-	$central->texto .= $galeria->galeria().
-						$facebook->recomendacion().
+	$central->texto .= 	$facebook->recomendacion().
 						$facebook->like().
 						$facebook->comentario();
 			
