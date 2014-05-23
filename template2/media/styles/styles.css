@@ -1,0 +1,103 @@
+
+.title {
+    font-family: Dragons;
+    font-weight: 500;
+    font-size: 80pt;
+    color: #777;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.subtitle {
+    font-family: OpenSansLight;
+    text-align: center;
+}
+
+
+nav ul {
+    margin: 0 auto;
+    width: 700px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.line {
+    background-color: #80FF00;
+    height: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+nav a {
+    display: block;
+    font-family: Gabriola;
+    font-size: 15pt;
+    text-decoration: None;
+    padding: 5px 10px;
+    color: #666;
+    border-bottom: 1px solid #EEE;
+}
+
+
+nav a:hover {
+    color: #000;
+    border-bottom: 1px solid #80FF00;
+}
+
+
+section {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+
+section h1 {
+    font-family: Gabriola;
+    color:#666;
+    font-size: 28pt;
+    text-shadow: 1px 1px 2px #333; 
+    border-bottom: 1px solid #80FF00;
+}
+
+
+p {
+    font-family: OpenSansLight;
+}
+
+
+.image {
+    margin-left: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 3px #444;
+}
+
+
+footer {
+    background-color: #80FF00;
+    padding: 20px 10px;
+    min-height: 20px;
+}
+
+.left {
+    float: left;
+    width: 400px;
+}
+
+.right {
+    width:  500px;
+    margin-left: 420px;
+}
+
+footer a {
+    color: #FFF;
+    font-family: OpenSans;
+    text-decoration: None;
+}
