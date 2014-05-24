@@ -8,6 +8,12 @@
     src: url("../fonts/Gabrielle.ttf")
 }
 
+
+@font-face {
+    font-family: Filigrees;
+    src: url("../fonts/filigrees and ornaments ST.ttf")
+}
+
 @font-face {
     font-family: Gabriola;
     src: url("../fonts/Gabriola.ttf")

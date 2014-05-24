@@ -29,9 +29,24 @@ nav ul li {
 
 .line {
     background-color: #80FF00;
+    border-top: 5px solid #FFF;
     height: 3px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.line span {
+    font-family: Filigrees;
+    display: block;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    font-size: 30pt;
+    color: #80FF00;
+    background-color: #FFF;
+    margin-top: -20px;
 }
 
 
