@@ -13,7 +13,7 @@
 
 class Galeria extends Html
 {
-	function generaGaleria($vector)
+	function generaGaleria()
 	{
     	$this->vector = $this->cambioVector($this->vector);
     	$this->vector2 = array();		
@@ -23,16 +23,17 @@ class Galeria extends Html
         	$this->alt = $i[1];
 			$this->title = $i[2];
 			$this->url=$i[0];
-			$this->vector2[] = $this->imagen->imagen();
+			$this->vector2[] = $this->imagen();
     	}       
     	$this->vector=$this->vector2;
 		$this->alt = "";
 		$this->title = "";
+		$this->id ="";
     	return "<div id='slideshow'>".
                 $this->listas().
             "</div>
             <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
-            <script src='script/craftyslide.min.js'></script>
+            <script src='js/craftyslide.min.js'></script>
       
             <script>
                 $('#slideshow').craftyslide();

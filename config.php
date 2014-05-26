@@ -162,6 +162,38 @@
 		echo $this->etiqueta();
 	}
 	
+	//genera las pestañas de la presentaciones
+	public function archivo()		//aun sin terminar
+	{
+		$this->name = "tab-group";
+		$this->type = "radio";
+		$i=1; $var = "";
+		foreach ($this->vector as $j )
+		{
+			$this->id = "tab-".$i;
+			$var .= $this->input();	
+			$var .= "<label for='".$this->id."'>\n".
+						$j.
+					"</label>";
+			$i++;
+		}
+		
+		$this->texto = $var;
+		$i=1;
+		$this->etiqueta="div";
+		foreach ($this->vector2 as $j )
+		{
+			$this->id = "contentido-".$i;
+			$this->texto .= "<div id='".$this->id."'>";
+			$i++; 
+			$this->texto .= $j;
+			$this->texto .= "</div>";	
+		} 
+		$this->name = "";
+		$this->etiqueta="div";
+		$this->id = "contenedor"; 
+	 	return $this->etiqueta(); 
+	}
 		
 	//genera el cierre del sitio
 	public function mainEnd()
