@@ -5,14 +5,14 @@ include 'config.php';
 
 // variables globales
 $facebook= new Facebook;
-$facebook->link="";
+$facebook->link="promociones.php";
 
 $pref = "";
 $vectorImg = array();
 
 $sitio=new Sitio; 
 $sitio->title="Abel Madrazo Alquila";
-$sitio->adicional="".
+$sitio->adicional="<link rel='stylesheet' href='estilos/adicional.css' type='text/css' media='screen' />".
 		$facebook->cabecera();
 $sitio->cabecera();
 $sitio->inicio();
@@ -38,7 +38,8 @@ $sitio->main();
 	$central = new Html;
 	$central->class="derecha";
 	$central->etiqueta="div";
-	$central->texto= "<h2>Promociones</h2>";
+	$central->texto= "<h2>Promociones</h2>".
+					"<!--Título-->";
 		
 			
 	$central->texto .=	$facebook->recomendacion().

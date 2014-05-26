@@ -75,7 +75,9 @@ body {
 
 #nav>li>a{
 	display: block;
-	font-size: 16px;
+	font-size: 15px;
+    font-weight:bold;
+    text-transform: uppercase;
 	color: #bac0c9;
 	text-decoration: none;
 	margin-top: 7px;
@@ -351,7 +353,13 @@ body {
 	margin-bottom: 10px;
 	padding: 12px 0px 0px 15px;	
 	font-size: 18px;
-	line-height: 5px;
+    font-family:Calibri,Georgia,Verdana;
+    letter-spacing:1px;
+    word-spacing:1px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:rgb(100,150,200);
+	line-height: 3px;
 }
 
 /* HEADERS --------------------------------------------------------*/
@@ -365,7 +373,7 @@ h1,h2,h3,h4,h5,h6{
 h1{ font-size: 30px; }
 
 h2{ 
-    font-size: 24px;
+    font-size: 20px;
     
     background:rgb(204,204,255);
     text-align:center;

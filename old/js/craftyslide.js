@@ -13,7 +13,7 @@
         // Defaults
         var defaults = {
             "width": 600,
-            "height": 600,
+            "height": 500,
             "pagination": false,
             "fadetime": 200,
             "delay": 200
