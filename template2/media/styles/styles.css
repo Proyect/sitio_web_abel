@@ -1,0 +1,160 @@
+
+header {
+    background-image: url(../images/logo2.png);
+    background-position: center 20px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+
+nav ul {
+    margin: 0 auto;
+    width: 700px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.line {
+    background-color: #80FF00;
+    border-top: 5px solid #FFF;
+    height: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.line span {
+    font-family: Filigrees;
+    display: block;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    font-size: 30pt;
+    color: #80FF00;
+    background-color: #FFF;
+    margin-top: -20px;
+}
+
+
+nav a {
+    display: block;
+    font-family: Gabriola;
+    font-size: 15pt;
+    text-decoration: None;
+    padding: 5px 10px;
+    color: #666;
+    border-bottom: 1px solid #EEE;
+}
+
+
+nav a:hover {
+    color: #000;
+    border-bottom: 1px solid #80FF00;
+}
+
+
+section {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+
+section h1 {
+    font-family: Gabriola;
+    color:#666;
+    font-size: 28pt;
+    text-shadow: 1px 1px 2px #333; 
+    border-bottom: 1px solid #80FF00;
+}
+
+
+p {
+    font-family: OpenSansLight;
+}
+
+
+.image {
+    margin-left: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 3px #444;
+}
+
+
+.left {
+    float: left;
+    width: 400px;
+}
+
+.right {
+    width:  500px;
+    margin-left: 420px;
+}
+
+
+footer {
+    background-color: #54A800;
+    padding: 20px 10px;
+    min-height: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #FFF;
+    font-family: OpenSans;
+    text-decoration: None;
+}
+
+
+@media screen and (min-width:1030px) {
+    header {
+        background-image: url(../images/logo.png);
+        padding-top: 130px;
+    }
+    
+    nav ul {
+        width: 900px;
+    }
+    
+    nav a {
+        font-size: 20pt;
+    }
+    
+
+    section {
+        width: 1200px;
+        min-height: 500px;
+    }
+
+    section h1 {
+        font-size: 34pt;
+    }
+
+    section p {
+        font-size: 14pt;
+    }
+
+    img {
+        width: 130%;
+    }
+
+    .left {
+        float: left;
+        width: 600px;
+    }
+
+    .right {
+        width:  500px;
+        margin-left: 620px;
+    }
+
+    footer {
+        min-height: 200px;
+    }
+}

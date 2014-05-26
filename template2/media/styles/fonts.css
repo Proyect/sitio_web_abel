@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Dragons;
+    src: url("../fonts/Dragon is coming.otf")
+}
+
+@font-face {
+    font-family: Gabrielle;
+    src: url("../fonts/Gabrielle.ttf")
+}
+
+
+@font-face {
+    font-family: Filigrees;
+    src: url("../fonts/filigrees and ornaments ST.ttf")
+}
+
+@font-face {
+    font-family: Gabriola;
+    src: url("../fonts/Gabriola.ttf")
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url(../fonts/OpenSans-Light.ttf);
+}
