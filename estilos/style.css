@@ -75,7 +75,9 @@ body {
 
 #nav>li>a{
 	display: block;
-	font-size: 16px;
+	font-size: 15px;
+    font-weight:bold;
+    text-transform: uppercase;
 	color: #bac0c9;
 	text-decoration: none;
 	margin-top: 7px;
@@ -350,8 +352,14 @@ body {
     height: 15px;
 	margin-bottom: 10px;
 	padding: 12px 0px 0px 15px;	
-	font-size: 18px;
-	line-height: 5px;
+	font-size: 20px;
+    font-family:Calibri,Georgia,Verdana;
+    letter-spacing:1px;
+    word-spacing:1px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:rgb(100,150,200);
+	line-height: 3px;
 }
 
 /* HEADERS --------------------------------------------------------*/

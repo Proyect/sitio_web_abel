@@ -10,7 +10,23 @@ $facebook= new Facebook;
 $galeria = new Galeria;
 	$galeria->sub = "imagenes/casa/";
 	$galeria->vector=array(array("P1030727.jpg","Vista desde el patio","Casa villa don carlos"),
-							array("P1030728.jpg","no se","provando")							
+							array("P1030728.jpg","no se","provando"),
+							array("P1030729.jpg","no se","provando"),
+							array("P1030730.jpg","no se","provando"),
+							array("P1030731.jpg","no se","provando"),
+							array("P1030732.jpg","no se","provando"),
+							array("P1030733.jpg","no se","provando"),
+							array("P1030734.jpg","no se","provando"),
+							array("P1030735.jpg","no se","provando"),							
+							array("P1030737.jpg","no se","provando"),
+							array("P1030738.jpg","no se","provando"),
+							array("P1030739.jpg","no se","provando"),
+							array("P1030740.jpg","no se","provando"),
+							array("P1030741.jpg","no se","provando"),
+							array("P1030742.jpg","no se","provando"),
+							array("P1030743.jpg","no se","provando"),	
+							array("P1030744.jpg","no se","provando"),
+							array("P1030745.jpg","no se","provando"),						
 						);
 	
 $sitio=new Sitio; 
