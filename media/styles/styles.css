@@ -74,9 +74,21 @@ section h1 {
     border-bottom: 1px solid #80FF00;
 }
 
+section h2 {
+    font-family: OpenSans;
+}
+
+section h3 {
+    font-family: OpenSansLight;
+    border-bottom: 1px solid #80FF00;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 
 p {
-    font-family: OpenSansLight;
+    font-family: OpenSans;
+    margin-bottom: 10px;
 }
 
 
@@ -147,8 +159,20 @@ footer a {
 
     background-color: #FFF;
     box-shadow: 0px 0px 14px #444;
+}
 
+.ui-accordion-header {
+    padding: 10px;
+}
 
+.ui-accordion-content {
+    padding-top: 20px;
+    height: 250px;
+}
+
+.slider img {
+    width: 350px;
+    max-height: 240px;
 }
 
 @media screen and (min-width:1030px) {
