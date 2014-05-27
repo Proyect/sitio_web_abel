@@ -204,7 +204,11 @@ footer a {
     }
 
     img {
-        width: 130%;
+        //width: 130%;
+    }
+
+    .gallery {
+        width: 1000px;
     }
 
     .left {
