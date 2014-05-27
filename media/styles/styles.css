@@ -166,13 +166,13 @@ footer a {
 }
 
 .ui-accordion-content {
-    padding-top: 20px;
-    height: 250px;
+    padding-top: 10px;
+    //height: 250px;
 }
 
 .slider img {
-    width: 350px;
-    max-height: 240px;
+    width: 450px;
+    max-height: 380px;
 }
 
 @media screen and (min-width:1030px) {

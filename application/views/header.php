@@ -11,6 +11,9 @@
     <script src="<?=base_url();?>media/scripts/jquery-1.11.0.min.js"></script>
     <script src="<?=base_url();?>media/scripts/jquery-ui-1.10.4.custom.js"></script>
     <script src="<?=base_url();?>media/scripts/lightbox.js"></script>
+    <!-- script>
+        $.noConflict();
+    </script -->
     <script src="<?=base_url();?>media/scripts/jquery.bxslider.js"></script>
 </head>
 
