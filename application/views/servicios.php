@@ -1,20 +1,14 @@
 <script type="text/javascript">
 $(document).ready(function(){
-    loadSliders();
-    loadAcordion();    
-});
-
-function loadSliders() {    
+    
+    $("#accordion" ).accordion();
+  
     $("#slider").bxSlider({
         auto: true,
         slideWidth: 450
     });
-}
 
-function loadAcordion() {
-    $("#accordion" ).accordion();
-}
-
+});
 </script>
 
 <br />
@@ -69,25 +63,25 @@ function loadAcordion() {
 
     <div class="right">
         <ul class="slider" id="slider">
-            <li><img src="<?base_url();?>media/images/fotos/mapa.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030727.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030731.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030732.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030741.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030745.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030746.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030747.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030751.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030757.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030770.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030771.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030778.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030780.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030787.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030789.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030791.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030792.jpg"></li>
-            <li><img src="<?base_url();?>media/images/fotos/P1030796.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/mapa.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030727.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030731.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030732.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030741.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030745.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030746.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030747.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030751.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030757.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030770.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030771.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030778.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030780.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030787.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030789.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030791.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030792.jpg"></li>
+            <li><img src="<?base_url();?>media/images/servicios/P1030796.jpg"></li>
         </ul>
     </div>
     <div style="clear:both;"></div>
