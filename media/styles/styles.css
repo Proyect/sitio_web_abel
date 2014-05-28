@@ -62,6 +62,9 @@ nav a:hover {
 section {
     width: 900px;
     margin: 0 auto;
+}
+
+.section { 
     min-height: 400px;
 }
 
@@ -95,6 +98,7 @@ p {
 .image {
     margin-left: 20px;
     padding: 5px;
+    width: 400px;
     box-shadow: 0px 0px 3px #444;
 }
 
@@ -138,7 +142,8 @@ footer a {
     box-shadow: 0px 0px 3px #555;
     margin-left: 5px;
     margin-bottom: 5px;
-
+    width: 100px;
+    max-height: 70px;
     
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -147,6 +152,7 @@ footer a {
 	transition:all 0.3s ease;
    
 }
+
 
 .gallery img:hover {
 -moz-transform:scale(1.4);
@@ -175,6 +181,38 @@ footer a {
     max-height: 380px;
 }
 
+.tabla-precios {
+    font-family: OpenSans;
+    font-size: 16pt;
+    margin: 0 auto;
+}
+
+.tabla-precios th {
+    background-color:#2C2C2C;
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 20px;
+}
+.tabla-precios tr {
+    border: 2px solid #FFF;
+}
+
+.tabla-precios td {
+    background-color: #E5E5E5;
+    padding: 15px 30px;
+    border-left: 2px solid #FFF;
+    color: #A80000;
+}
+
+.tabla-precios td:first-child {
+    background-color: #00C400;
+    font-weight: bold;
+    padding: 15px 60px;
+    color: #FFF;
+}
+
+
+
 @media screen and (min-width:1030px) {
     header {
         background-image: url(../images/logo.png);
@@ -192,7 +230,10 @@ footer a {
 
     section {
         width: 1200px;
-        min-height: 500px;
+    }
+    
+    .section {
+        min-height: 600px;
     }
 
     section h1 {
@@ -203,12 +244,17 @@ footer a {
         font-size: 14pt;
     }
 
-    img {
-        //width: 130%;
+    .image {
+        width: 100%;
     }
 
     .gallery {
-        width: 1000px;
+        width: 1100px;
+    }
+
+    .gallery img {
+        width: 150px;
+        max-height: 100px;
     }
 
     .left {

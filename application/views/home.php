@@ -1,11 +1,11 @@
 <br />
 <br />
 <div class="left">
-        <br />   
-        <h1> Casa en Villa don Carlos</h1>
-        <br />
+    <br />   
+    <h1> Casa en Villa don Carlos</h1>
+    <br />
         
-        <p>
+    <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum arcu
         a orci auctor, et consequat nunc tristique. Etiam iaculis tortor quis
         diam bibendum volutpat. Nulla luctus dapibus nulla. Cras tempus ante eu
@@ -14,9 +14,10 @@
         mattis felis dignissim. Vestibulum scelerisque nunc quis risus
         adipiscing euismod. Donec lobortis, quam ac porttitor tincidunt, urna.
 
-        </p>
-        </div>
-        <div class="right">
-            <img class="image" src="media/images/imagen.jpg" alt="" width="400px">
-        </div>
-        <div style="clear:both;"></div>
+    </p>
+</div>
+
+<div class="right">
+    <img class="image" src="<?base_url();?>media/images/imagen.jpg" alt="">
+</div>
+<div style="clear:both;"></div>

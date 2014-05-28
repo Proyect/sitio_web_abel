@@ -69,15 +69,38 @@ function loadAcordion() {
 
     <div class="right">
         <ul class="slider" id="slider">
-            <li><img src="<?=base_url();?>media/images/servicios/P1030762.jpg"></li>
-            <li><img src="<?=base_url();?>media/images/servicios/P1030763.jpg"></li>
-            <li><img src="<?=base_url();?>media/images/servicios/P1030764.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/mapa.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030727.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030731.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030732.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030741.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030745.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030746.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030747.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030751.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030757.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030770.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030771.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030778.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030780.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030787.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030789.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030791.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030792.jpg"></li>
+            <li><img src="<?base_url();?>media/images/fotos/P1030796.jpg"></li>
         </ul>
     </div>
     <div style="clear:both;"></div>
 </div>
 
 <br />
+<br />
+<br />
+ 
+<div style="width: 810px; margin: 0 auto;">
+    <div class="fb-comments" data-href="<?=$fb_url_services?>" data-numposts="3" data-colorscheme="light" data-width="800"></div>
+</div>
+
 <br />
 <br />
 
