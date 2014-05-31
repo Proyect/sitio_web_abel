@@ -3,11 +3,13 @@
 <br />
 <div class="left">
     <div class="form-ui" style="width:400px; margin: 0 auto;">
-    <form action="" method="post">
+    <?=form_open('contacto');?>
+    <p>Todos los campos del Formularios son obligatorios</p>
+    <br />
 
     <p>
     <label>Nombre:</label>
-    <input type="text" name="nombre" value="" class="f-xlarge"/>
+    <input type="text" name="nombre" value="<?=set_value('nombre');?>" class="f-xlarge"/>
     </p>
 
     <p>
@@ -18,6 +20,12 @@
     <p>
     <label>Asunto:</label>
     <input type="text" name="asunto" value="" class="f-xlarge"/>
+    </p>
+    
+
+    <p>
+    <label>Email:</label>
+    <input type="text" name="email" value="" class="f-xlarge"/>
     </p>
 
     <p>
@@ -32,6 +40,8 @@
     
     </form>
     </div>
+
+
 </div>
 
 
@@ -43,4 +53,7 @@
 </div>
 
 <div style="clear: both;"></div>
+<br />
 
+
+<?=validation_errors();?>
