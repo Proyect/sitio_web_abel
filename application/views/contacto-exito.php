@@ -1,8 +1,17 @@
 <h1>Contacto</h1>
+<br />
+<br />
+<br />
+<br />
 
-<div class="">
-    <p>Su Mensaje Fue Enviado</p>
-    
+<? if ($error): ?>
+<div class="error" style="width: 800px; margin: 0 auto;">
+<? else: ?>
+<div class="notify" style="width: 800px; margin: 0 auto;">
+<? endif; ?>
+    <?=$message;?>
 </div>
 
+<br />
+<br />
 

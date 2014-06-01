@@ -4,6 +4,8 @@
 }
 
 .form-ui label {
+    font-size: 10pt;
+    font-weight: bold;
     display: block;
     margin-left: 10pt;
     margin-bottom: 3pt;
