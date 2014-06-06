@@ -42,6 +42,7 @@ $route['default_controller'] = "views";
 $route['404_override'] = 'views/error404';
 
 $route['nosotros'] = "views/nosotros"; 
+$route['disponibilidad'] = "views/disponibilidad"; 
 $route['servicios'] = "views/servicios"; 
 $route['fotos'] = "views/fotos"; 
 $route['promociones'] = "views/promociones"; 

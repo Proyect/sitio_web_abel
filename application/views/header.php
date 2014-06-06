@@ -63,7 +63,7 @@
         <nav>
         <ul>
         <li><a href="<?=base_url()?>">Casa en Villa don Carlos</a></li>
-            <li><a href="<?=base_url();?>nosotros">Nosotros</a></li>
+            <li><a href="<?=base_url();?>disponibilidad">Disponibilidad</a></li>
             <li><a href="<?=base_url();?>fotos">Galeria Imagenes</a></li>
             <li><a href="<?=base_url();?>servicios">Servicios</a></li>
             <li><a href="<?=base_url()?>promociones">Promociones</a></li>
