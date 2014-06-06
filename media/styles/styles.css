@@ -9,7 +9,7 @@ header {
 
 nav ul {
     margin: 0 auto;
-    width: 700px;
+    width: 800px;
 }
 
 
@@ -242,6 +242,9 @@ footer a {
     font-family: OpenSans;
 }
 
+.st-dtitle-today {
+    background-color: #AAA !important;
+}
 
 @media screen and (min-width:1030px) {
     header {
@@ -250,7 +253,7 @@ footer a {
     }
     
     nav ul {
-        width: 900px;
+        width: 950px;
     }
     
     nav a {
