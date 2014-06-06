@@ -39,6 +39,14 @@ class Views extends CI_Controller {
         $this->load->view('nosotros');
         $this->load->view('footer');
     }
+    
+    
+    public function disponibilidad()
+    {
+        $this->load->view('header', $this->data);
+        $this->load->view('disponibilidad');
+        $this->load->view('footer');
+    }
 
 
     public function fotos()
